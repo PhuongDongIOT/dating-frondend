@@ -1,0 +1,96 @@
+.row {
+  padding: 10px 20px;
+}
+
+.logo {
+  padding: 10px 0 0 0;
+  text-align: center;
+}
+
+.logo img {
+  width: 70px;
+  margin: auto;
+}
+
+.heroImage {
+  position: relative;
+  background: #e96443; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #904e95,
+    #e96443
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #904e95,
+    #e96443
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+}
+
+.heroTextLeft {
+  text-align: center;
+  color: white;
+}
+
+.heroTextLeft h1 {
+  margin: 10px 0 20px 0;
+}
+
+.heroTextLeft p {
+  text-align: center;
+  padding: 0 20px;
+  margin: 10px 0 0 0;
+  font-size: 15px;
+}
+
+.heroTextRight {
+  text-align: center;
+  color: white;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 20px 0;
+}
+
+.heroTextRight img {
+  margin: auto;
+  width: 70%;
+}
+
+.buttonText {
+  position: absolute;
+  bottom: -15px;
+  display: flex;
+  left: 50%;
+  transform: translateX(-50%);
+  flex-direction: column;
+}
+
+.heroTextRight .buttonText button {
+  background-color: transparent;
+  border: 1px solid #e96443;
+  outline: none;
+  border-radius: 15px;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  font-weight: 900;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+.heroTextRight .buttonText a {
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+.imgLover img {
+  width: 80px;
+}
+
